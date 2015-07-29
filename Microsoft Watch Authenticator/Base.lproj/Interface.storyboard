@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8083.2"/>
+    </dependencies>
+    <scenes>
+        <!--MainWatchInterface-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="MainWatchInterface" id="AgC-eL-Hgc" customClass="samplesMainInterfaceController">
+                    <items>
+                        <imageView width="32" height="32" alignment="center" image="azure-active-directory-AppleWatch-38mm-ShortLook" id="ewK-Rh-9fh"/>
+                        <label alignment="left" text="Microsoft Identity" id="o7m-kU-bdL"/>
+                        <separator alignment="left" id="tal-Zh-CAc"/>
+                        <button width="1" alignment="left" title="Your Accounts" id="qNw-Wy-SEo">
+                            <connections>
+                                <segue destination="GRs-Jg-ryk" kind="push" id="nDi-Se-S3b"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="accountPressed" destination="qNw-Wy-SEo" id="Fri-6m-F96"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="202" y="345"/>
+        </scene>
+        <!--Samples Identity Table Interface Controller-->
+        <scene sceneID="I19-Cl-PJS">
+            <objects>
+                <controller hidesWhenLoading="NO" id="GRs-Jg-ryk" customClass="samplesIdentityTableInterfaceController">
+                    <items>
+                        <table alignment="left" id="fMl-nJ-9Qs">
+                            <items>
+                                <tableRow identifier="samplesIdentityRow" id="v6k-Ev-3OW" customClass="samplesIdentityRow">
+                                    <group key="rootItem" width="1" alignment="left" layout="vertical" id="64V-l4-aSJ">
+                                        <items>
+                                            <label width="1" height="1" alignment="left" text="User" id="GbS-Fe-yee"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="userLabel" destination="GbS-Fe-yee" id="IGP-De-YWQ"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="tableView" destination="fMl-nJ-9Qs" id="3SM-lh-WjI"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="418" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>

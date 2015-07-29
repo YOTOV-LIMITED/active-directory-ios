@@ -10,7 +10,6 @@
 		97C15AF41A27FDF0004A0419 /* SamplesSelectUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C15AF31A27FDF0004A0419 /* SamplesSelectUserViewController.m */; };
 		97C15AF71A280BEF004A0419 /* SamplesApplicationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C15AF61A280BEF004A0419 /* SamplesApplicationData.m */; };
 		97C15AFA1A29C9F3004A0419 /* SamplesAppSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C15AF91A29C9F3004A0419 /* SamplesAppSettingsController.m */; };
-		A7C8E8174A44140EEB0E7EF2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 075B6E5720AC4E29872664F4 /* libPods.a */; };
 		B82906B71AE6C98300E1977C /* NSDictionary+UrlEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = B82906B61AE6C98300E1977C /* NSDictionary+UrlEncoding.m */; };
 		B82906B91AE6CA8100E1977C /* samplesPolicyData.m in Sources */ = {isa = PBXBuildFile; fileRef = B82906B81AE6CA8100E1977C /* samplesPolicyData.m */; };
 		B82906BD1AE6CD1100E1977C /* samplesShowClaimsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B82906BC1AE6CD1100E1977C /* samplesShowClaimsViewController.m */; };
@@ -39,6 +38,23 @@
 		FB3F011618C7092700173598 /* sampleAddTaskItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3F011518C7092700173598 /* sampleAddTaskItemViewController.m */; };
 		FB3F011C18C709FE00173598 /* samplesTaskListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3F011B18C709FE00173598 /* samplesTaskListTableViewController.m */; };
 		FB3F011F18C713E600173598 /* samplesTaskItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3F011E18C713E600173598 /* samplesTaskItem.m */; };
+		FB8D62BD1B68B5F20084C3D0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8D62BB1B68B5F20084C3D0 /* Interface.storyboard */; };
+		FB8D62BF1B68B5F20084C3D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8D62BE1B68B5F20084C3D0 /* Assets.xcassets */; };
+		FB8D62C61B68B5F20084C3D0 /* Microsoft Watch Authenticator Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FB8D62C51B68B5F20084C3D0 /* Microsoft Watch Authenticator Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FB8D62CE1B68B5F20084C3D0 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8D62CD1B68B5F20084C3D0 /* InterfaceController.m */; };
+		FB8D62D11B68B5F20084C3D0 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8D62D01B68B5F20084C3D0 /* ExtensionDelegate.m */; };
+		FB8D62D41B68B5F20084C3D0 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8D62D31B68B5F20084C3D0 /* NotificationController.m */; };
+		FB8D62D61B68B5F20084C3D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8D62D51B68B5F20084C3D0 /* Assets.xcassets */; };
+		FB8D62DA1B68B5F20084C3D0 /* Microsoft Watch Authenticator.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FB8D62B91B68B5F20084C3D0 /* Microsoft Watch Authenticator.app */; };
+		FB9CD7F31B68D0D90045B4A6 /* samplesMainInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9CD7F21B68D0D90045B4A6 /* samplesMainInterfaceController.m */; };
+		FB9CD7F61B68D0F50045B4A6 /* samplesIdentityTableInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9CD7F51B68D0F50045B4A6 /* samplesIdentityTableInterfaceController.m */; };
+		FB9CD7F91B68D39D0045B4A6 /* samplesIdentityRow.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9CD7F81B68D39D0045B4A6 /* samplesIdentityRow.m */; };
+		FB9CD7FC1B68D86A0045B4A6 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9CD7FB1B68D86A0045B4A6 /* User.m */; };
+		FB9CD7FE1B68D9470045B4A6 /* User.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB9CD7FD1B68D9470045B4A6 /* User.plist */; };
+		FB9CD8021B68E3030045B4A6 /* libADALiOS_Watch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9CD8011B68E3030045B4A6 /* libADALiOS_Watch.a */; };
+		FB9CD8081B68E7220045B4A6 /* libADALiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9CD8071B68E7220045B4A6 /* libADALiOS.a */; };
+		FB9CD80A1B696B290045B4A6 /* watchApplicationData.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9CD8091B696B290045B4A6 /* watchApplicationData.m */; };
+		FB9CD80D1B696D520045B4A6 /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB9CD80C1B696D520045B4A6 /* settings.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +65,46 @@
 			remoteGlobalIDString = FB3F00D518C7016200173598;
 			remoteInfo = "Microsoft Tasks";
 		};
+		FB8D62C71B68B5F20084C3D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB3F00CE18C7016200173598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8D62C41B68B5F20084C3D0;
+			remoteInfo = "Microsoft Watch Authenticator Extension";
+		};
+		FB8D62D81B68B5F20084C3D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB3F00CE18C7016200173598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8D62B81B68B5F20084C3D0;
+			remoteInfo = "Microsoft Watch Authenticator";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB8D62DE1B68B5F20084C3D0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FB8D62C61B68B5F20084C3D0 /* Microsoft Watch Authenticator Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8D62E21B68B5F20084C3D0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FB8D62DA1B68B5F20084C3D0 /* Microsoft Watch Authenticator.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		075B6E5720AC4E29872664F4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +153,35 @@
 		FB3F011B18C709FE00173598 /* samplesTaskListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = samplesTaskListTableViewController.m; sourceTree = "<group>"; };
 		FB3F011D18C713E600173598 /* samplesTaskItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = samplesTaskItem.h; sourceTree = "<group>"; };
 		FB3F011E18C713E600173598 /* samplesTaskItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = samplesTaskItem.m; sourceTree = "<group>"; };
+		FB8D62B91B68B5F20084C3D0 /* Microsoft Watch Authenticator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Microsoft Watch Authenticator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8D62BC1B68B5F20084C3D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FB8D62BE1B68B5F20084C3D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB8D62C01B68B5F20084C3D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8D62C51B68B5F20084C3D0 /* Microsoft Watch Authenticator Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Microsoft Watch Authenticator Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8D62CB1B68B5F20084C3D0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		FB8D62CC1B68B5F20084C3D0 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		FB8D62CD1B68B5F20084C3D0 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		FB8D62CF1B68B5F20084C3D0 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		FB8D62D01B68B5F20084C3D0 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		FB8D62D21B68B5F20084C3D0 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		FB8D62D31B68B5F20084C3D0 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		FB8D62D51B68B5F20084C3D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB8D62D71B68B5F20084C3D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9CD7F11B68D0D90045B4A6 /* samplesMainInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = samplesMainInterfaceController.h; sourceTree = "<group>"; };
+		FB9CD7F21B68D0D90045B4A6 /* samplesMainInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = samplesMainInterfaceController.m; sourceTree = "<group>"; };
+		FB9CD7F41B68D0F50045B4A6 /* samplesIdentityTableInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = samplesIdentityTableInterfaceController.h; sourceTree = "<group>"; };
+		FB9CD7F51B68D0F50045B4A6 /* samplesIdentityTableInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = samplesIdentityTableInterfaceController.m; sourceTree = "<group>"; };
+		FB9CD7F71B68D39D0045B4A6 /* samplesIdentityRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = samplesIdentityRow.h; sourceTree = "<group>"; };
+		FB9CD7F81B68D39D0045B4A6 /* samplesIdentityRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = samplesIdentityRow.m; sourceTree = "<group>"; };
+		FB9CD7FA1B68D86A0045B4A6 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		FB9CD7FB1B68D86A0045B4A6 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		FB9CD7FD1B68D9470045B4A6 /* User.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = User.plist; sourceTree = "<group>"; };
+		FB9CD8011B68E3030045B4A6 /* libADALiOS_Watch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libADALiOS_Watch.a; path = "../../SDKs/azure-activedirectory-library-for-objc/ADALiOS/build/Debug-watchos/libADALiOS_Watch.a"; sourceTree = "<group>"; };
+		FB9CD8051B68E6E90045B4A6 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		FB9CD8071B68E7220045B4A6 /* libADALiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libADALiOS.a; path = "Pods/../build/Debug-iphoneos/libADALiOS.a"; sourceTree = "<group>"; };
+		FB9CD8091B696B290045B4A6 /* watchApplicationData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = watchApplicationData.m; sourceTree = "<group>"; };
+		FB9CD80B1B696B3E0045B4A6 /* watchApplicationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = watchApplicationData.h; sourceTree = "<group>"; };
+		FB9CD80C1B696D520045B4A6 /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +189,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB9CD8081B68E7220045B4A6 /* libADALiOS.a in Frameworks */,
 				FB3F00DC18C7016200173598 /* CoreGraphics.framework in Frameworks */,
 				FB3F00E018C7016200173598 /* CoreData.framework in Frameworks */,
 				FB3F00DE18C7016200173598 /* UIKit.framework in Frameworks */,
 				FB3F00DA18C7016200173598 /* Foundation.framework in Frameworks */,
-				A7C8E8174A44140EEB0E7EF2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +206,14 @@
 				FB3F00FA18C7016200173598 /* UIKit.framework in Frameworks */,
 				FB3F00F918C7016200173598 /* Foundation.framework in Frameworks */,
 				EC01CD8C7777703E90A7F804 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8D62C21B68B5F20084C3D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9CD8021B68E3030045B4A6 /* libADALiOS_Watch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +234,8 @@
 			children = (
 				FB3F00E118C7016200173598 /* Microsoft Tasks */,
 				FB3F00FE18C7016200173598 /* Microsoft TasksTests */,
+				FB8D62BA1B68B5F20084C3D0 /* Microsoft Watch Authenticator */,
+				FB8D62C91B68B5F20084C3D0 /* Microsoft Watch Authenticator Extension */,
 				FB3F00D818C7016200173598 /* Frameworks */,
 				FB3F00D718C7016200173598 /* Products */,
 				3815BCDF3B86DDADB63BCC4F /* Pods */,
@@ -153,6 +247,8 @@
 			children = (
 				FB3F00D618C7016200173598 /* Microsoft Tasks.app */,
 				FB3F00F618C7016200173598 /* Microsoft TasksTests.xctest */,
+				FB8D62B91B68B5F20084C3D0 /* Microsoft Watch Authenticator.app */,
+				FB8D62C51B68B5F20084C3D0 /* Microsoft Watch Authenticator Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,6 +256,9 @@
 		FB3F00D818C7016200173598 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FB9CD8071B68E7220045B4A6 /* libADALiOS.a */,
+				FB9CD8051B68E6E90045B4A6 /* libPods.a */,
+				FB9CD8011B68E3030045B4A6 /* libADALiOS_Watch.a */,
 				FB3F00D918C7016200173598 /* Foundation.framework */,
 				FB3F00DB18C7016200173598 /* CoreGraphics.framework */,
 				FB3F00DD18C7016200173598 /* UIKit.framework */,
@@ -236,6 +335,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FB8D62BA1B68B5F20084C3D0 /* Microsoft Watch Authenticator */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D62BB1B68B5F20084C3D0 /* Interface.storyboard */,
+				FB8D62BE1B68B5F20084C3D0 /* Assets.xcassets */,
+				FB8D62C01B68B5F20084C3D0 /* Info.plist */,
+			);
+			path = "Microsoft Watch Authenticator";
+			sourceTree = "<group>";
+		};
+		FB8D62C91B68B5F20084C3D0 /* Microsoft Watch Authenticator Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D62CC1B68B5F20084C3D0 /* InterfaceController.h */,
+				FB8D62CD1B68B5F20084C3D0 /* InterfaceController.m */,
+				FB8D62CF1B68B5F20084C3D0 /* ExtensionDelegate.h */,
+				FB8D62D01B68B5F20084C3D0 /* ExtensionDelegate.m */,
+				FB8D62D21B68B5F20084C3D0 /* NotificationController.h */,
+				FB8D62D31B68B5F20084C3D0 /* NotificationController.m */,
+				FB8D62D51B68B5F20084C3D0 /* Assets.xcassets */,
+				FB8D62D71B68B5F20084C3D0 /* Info.plist */,
+				FB8D62CA1B68B5F20084C3D0 /* Supporting Files */,
+				FB9CD7F11B68D0D90045B4A6 /* samplesMainInterfaceController.h */,
+				FB9CD7F21B68D0D90045B4A6 /* samplesMainInterfaceController.m */,
+				FB9CD7F41B68D0F50045B4A6 /* samplesIdentityTableInterfaceController.h */,
+				FB9CD7F51B68D0F50045B4A6 /* samplesIdentityTableInterfaceController.m */,
+				FB9CD7F71B68D39D0045B4A6 /* samplesIdentityRow.h */,
+				FB9CD7F81B68D39D0045B4A6 /* samplesIdentityRow.m */,
+				FB9CD7FA1B68D86A0045B4A6 /* User.h */,
+				FB9CD7FB1B68D86A0045B4A6 /* User.m */,
+				FB9CD7FD1B68D9470045B4A6 /* User.plist */,
+				FB9CD8091B696B290045B4A6 /* watchApplicationData.m */,
+				FB9CD80B1B696B3E0045B4A6 /* watchApplicationData.h */,
+			);
+			path = "Microsoft Watch Authenticator Extension";
+			sourceTree = "<group>";
+		};
+		FB8D62CA1B68B5F20084C3D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D62CB1B68B5F20084C3D0 /* PushNotificationPayload.apns */,
+				FB9CD80C1B696D520045B4A6 /* settings.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -248,11 +393,12 @@
 				FB3F00D318C7016200173598 /* Frameworks */,
 				FB3F00D418C7016200173598 /* Resources */,
 				2E16D7D83C534279873FC06F /* Copy Pods Resources */,
-				B844A9A71AEF103A00224ED9 /* ShellScript */,
+				FB8D62E21B68B5F20084C3D0 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FB8D62D91B68B5F20084C3D0 /* PBXTargetDependency */,
 			);
 			name = "Microsoft Tasks";
 			productName = "Microsoft Tasks";
@@ -279,6 +425,40 @@
 			productReference = FB3F00F618C7016200173598 /* Microsoft TasksTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FB8D62B81B68B5F20084C3D0 /* Microsoft Watch Authenticator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8D62DF1B68B5F20084C3D0 /* Build configuration list for PBXNativeTarget "Microsoft Watch Authenticator" */;
+			buildPhases = (
+				FB8D62B71B68B5F20084C3D0 /* Resources */,
+				FB8D62DE1B68B5F20084C3D0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB8D62C81B68B5F20084C3D0 /* PBXTargetDependency */,
+			);
+			name = "Microsoft Watch Authenticator";
+			productName = "Microsoft Watch Authenticator";
+			productReference = FB8D62B91B68B5F20084C3D0 /* Microsoft Watch Authenticator.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FB8D62C41B68B5F20084C3D0 /* Microsoft Watch Authenticator Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8D62DB1B68B5F20084C3D0 /* Build configuration list for PBXNativeTarget "Microsoft Watch Authenticator Extension" */;
+			buildPhases = (
+				FB8D62C11B68B5F20084C3D0 /* Sources */,
+				FB8D62C21B68B5F20084C3D0 /* Frameworks */,
+				FB8D62C31B68B5F20084C3D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Microsoft Watch Authenticator Extension";
+			productName = "Microsoft Watch Authenticator Extension";
+			productReference = FB8D62C51B68B5F20084C3D0 /* Microsoft Watch Authenticator Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -286,7 +466,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = samples;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Microsoft;
 				TargetAttributes = {
 					FB3F00D518C7016200173598 = {
@@ -300,6 +480,14 @@
 					FB3F00F518C7016200173598 = {
 						TestTargetID = FB3F00D518C7016200173598;
 					};
+					FB8D62B81B68B5F20084C3D0 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = QPA5Y64RGS;
+					};
+					FB8D62C41B68B5F20084C3D0 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = QPA5Y64RGS;
+					};
 				};
 			};
 			buildConfigurationList = FB3F00D118C7016200173598 /* Build configuration list for PBXProject "Microsoft Tasks" */;
@@ -308,6 +496,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = FB3F00CD18C7016200173598;
 			productRefGroup = FB3F00D718C7016200173598 /* Products */;
@@ -316,6 +505,8 @@
 			targets = (
 				FB3F00D518C7016200173598 /* Microsoft Tasks */,
 				FB3F00F518C7016200173598 /* Microsoft TasksTests */,
+				FB8D62B81B68B5F20084C3D0 /* Microsoft Watch Authenticator */,
+				FB8D62C41B68B5F20084C3D0 /* Microsoft Watch Authenticator Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -338,6 +529,25 @@
 			files = (
 				FB3F010318C7016200173598 /* InfoPlist.strings in Resources */,
 				FB3BF23618D03A88007E645E /* Main_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8D62B71B68B5F20084C3D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8D62BF1B68B5F20084C3D0 /* Assets.xcassets in Resources */,
+				FB8D62BD1B68B5F20084C3D0 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8D62C31B68B5F20084C3D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8D62D61B68B5F20084C3D0 /* Assets.xcassets in Resources */,
+				FB9CD80D1B696D520045B4A6 /* settings.plist in Resources */,
+				FB9CD7FE1B68D9470045B4A6 /* User.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,19 +614,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B844A9A71AEF103A00224ED9 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "FILE=\"${SRCROOT}/HockeySDK-iOS/BuildAgent\"\nif [ -f \"$FILE\" ]; then\n\"$FILE\"\nfi";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -450,6 +647,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FB8D62C11B68B5F20084C3D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9CD7FC1B68D86A0045B4A6 /* User.m in Sources */,
+				FB9CD7F31B68D0D90045B4A6 /* samplesMainInterfaceController.m in Sources */,
+				FB9CD7F61B68D0F50045B4A6 /* samplesIdentityTableInterfaceController.m in Sources */,
+				FB8D62D11B68B5F20084C3D0 /* ExtensionDelegate.m in Sources */,
+				FB8D62CE1B68B5F20084C3D0 /* InterfaceController.m in Sources */,
+				FB9CD7F91B68D39D0045B4A6 /* samplesIdentityRow.m in Sources */,
+				FB9CD80A1B696B290045B4A6 /* watchApplicationData.m in Sources */,
+				FB8D62D41B68B5F20084C3D0 /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -457,6 +669,16 @@
 			isa = PBXTargetDependency;
 			target = FB3F00D518C7016200173598 /* Microsoft Tasks */;
 			targetProxy = FB3F00FC18C7016200173598 /* PBXContainerItemProxy */;
+		};
+		FB8D62C81B68B5F20084C3D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8D62C41B68B5F20084C3D0 /* Microsoft Watch Authenticator Extension */;
+			targetProxy = FB8D62C71B68B5F20084C3D0 /* PBXContainerItemProxy */;
+		};
+		FB8D62D91B68B5F20084C3D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8D62B81B68B5F20084C3D0 /* Microsoft Watch Authenticator */;
+			targetProxy = FB8D62D81B68B5F20084C3D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -475,6 +697,14 @@
 				FB3F010218C7016200173598 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FB8D62BB1B68B5F20084C3D0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8D62BC1B68B5F20084C3D0 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -498,6 +728,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -512,7 +743,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -544,7 +775,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -567,8 +798,12 @@
 				GCC_PREFIX_HEADER = "Microsoft Tasks/Microsoft Tasks-Prefix.pch";
 				INFOPLIST_FILE = "Microsoft Tasks/Microsoft Tasks-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.windowsazure.activedirectory.samples.microsofttasks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -593,8 +828,12 @@
 				GCC_PREFIX_HEADER = "Microsoft Tasks/Microsoft Tasks-Prefix.pch";
 				INFOPLIST_FILE = "Microsoft Tasks/Microsoft Tasks-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.windowsazure.activedirectory.samples.microsofttasks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -619,6 +858,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Microsoft TasksTests/Microsoft TasksTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.windowsazure.activedirectory.samples.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -638,9 +878,106 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Microsoft Tasks/Microsoft Tasks-Prefix.pch";
 				INFOPLIST_FILE = "Microsoft TasksTests/Microsoft TasksTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.windowsazure.activedirectory.samples.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		FB8D62DC1B68B5F20084C3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Microsoft Watch Authenticator Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Volumes/Development\\ HD/SDKs/azure-activedirectory-library-for-objc/ADALiOS/build/Debug-watchos/**",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "-objC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.windowsazure.activedirectory.samples.microsofttasks.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		FB8D62DD1B68B5F20084C3D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Microsoft Watch Authenticator Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Volumes/Development\\ HD/SDKs/azure-activedirectory-library-for-objc/ADALiOS/build/Debug-watchos/**",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-objC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.windowsazure.activedirectory.samples.microsofttasks.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		FB8D62E01B68B5F20084C3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = Microsoft_Watch_Authenticator_Extension;
+				INFOPLIST_FILE = "Microsoft Watch Authenticator/Info.plist";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.windowsazure.activedirectory.samples.microsofttasks.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		FB8D62E11B68B5F20084C3D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = Microsoft_Watch_Authenticator_Extension;
+				INFOPLIST_FILE = "Microsoft Watch Authenticator/Info.plist";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.windowsazure.activedirectory.samples.microsofttasks.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -670,6 +1007,24 @@
 			buildConfigurations = (
 				FB3F010C18C7016200173598 /* Debug */,
 				FB3F010D18C7016200173598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8D62DB1B68B5F20084C3D0 /* Build configuration list for PBXNativeTarget "Microsoft Watch Authenticator Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8D62DC1B68B5F20084C3D0 /* Debug */,
+				FB8D62DD1B68B5F20084C3D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8D62DF1B68B5F20084C3D0 /* Build configuration list for PBXNativeTarget "Microsoft Watch Authenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8D62E01B68B5F20084C3D0 /* Debug */,
+				FB8D62E11B68B5F20084C3D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
